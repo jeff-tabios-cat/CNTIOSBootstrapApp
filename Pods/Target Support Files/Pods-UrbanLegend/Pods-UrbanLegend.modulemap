@@ -1,0 +1,6 @@
+framework module Pods_UrbanLegend {
+  umbrella header "Pods-UrbanLegend-umbrella.h"
+
+  export *
+  module * { export * }
+}

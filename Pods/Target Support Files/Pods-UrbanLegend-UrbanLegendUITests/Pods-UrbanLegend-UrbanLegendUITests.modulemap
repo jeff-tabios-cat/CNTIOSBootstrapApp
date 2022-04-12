@@ -1,0 +1,6 @@
+framework module Pods_UrbanLegend_UrbanLegendUITests {
+  umbrella header "Pods-UrbanLegend-UrbanLegendUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,858 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AB9BC2AD1630DA14A8E051E /* Pods_UrbanLegend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158314BD86E65733BCE11257 /* Pods_UrbanLegend.framework */; };
+		4FE9BE67A32A99B3982649E3 /* Pods_UrbanLegend_UrbanLegendUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83CF6BDA2124F3E866DBEDD2 /* Pods_UrbanLegend_UrbanLegendUITests.framework */; };
+		BEF38AAB28056B8400F9E772 /* UrbanLegendApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF38AAA28056B8400F9E772 /* UrbanLegendApp.swift */; };
+		BEF38AAD28056B8400F9E772 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF38AAC28056B8400F9E772 /* ContentView.swift */; };
+		BEF38AAF28056B8800F9E772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF38AAE28056B8800F9E772 /* Assets.xcassets */; };
+		BEF38AB228056B8800F9E772 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF38AB128056B8800F9E772 /* Preview Assets.xcassets */; };
+		BEF38ABC28056B8900F9E772 /* UrbanLegendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF38ABB28056B8900F9E772 /* UrbanLegendTests.swift */; };
+		BEF38AC628056B8900F9E772 /* UrbanLegendUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF38AC528056B8900F9E772 /* UrbanLegendUITests.swift */; };
+		BEF38AC828056B8900F9E772 /* UrbanLegendUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF38AC728056B8900F9E772 /* UrbanLegendUITestsLaunchTests.swift */; };
+		BEF38AE028056D1F00F9E772 /* AppFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF38ADF28056D1F00F9E772 /* AppFonts.swift */; };
+		BEF38AE228056D2A00F9E772 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF38AE128056D2A00F9E772 /* AppColors.swift */; };
+		BEF38AE728056D6700F9E772 /* TemplateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF38AE628056D6700F9E772 /* TemplateViewModel.swift */; };
+		BEF38AE928056D8200F9E772 /* TemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF38AE828056D8200F9E772 /* TemplateView.swift */; };
+		C29298F079DD009BE37870EA /* Pods_UrbanLegendTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E2111DD94A737BCFD65886C /* Pods_UrbanLegendTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEF38AB828056B8900F9E772 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEF38A9F28056B8400F9E772 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF38AA628056B8400F9E772;
+			remoteInfo = UrbanLegend;
+		};
+		BEF38AC228056B8900F9E772 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEF38A9F28056B8400F9E772 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF38AA628056B8400F9E772;
+			remoteInfo = UrbanLegend;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		158314BD86E65733BCE11257 /* Pods_UrbanLegend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UrbanLegend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B955C48A54FD105161C7ECC /* Pods-UrbanLegendTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UrbanLegendTests.release.xcconfig"; path = "Target Support Files/Pods-UrbanLegendTests/Pods-UrbanLegendTests.release.xcconfig"; sourceTree = "<group>"; };
+		4E7981C631B732FE04F6325E /* Pods-UrbanLegend-UrbanLegendUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UrbanLegend-UrbanLegendUITests.debug.xcconfig"; path = "Target Support Files/Pods-UrbanLegend-UrbanLegendUITests/Pods-UrbanLegend-UrbanLegendUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		551EA69B522EF4A7641F898C /* Pods-UrbanLegend-UrbanLegendUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UrbanLegend-UrbanLegendUITests.release.xcconfig"; path = "Target Support Files/Pods-UrbanLegend-UrbanLegendUITests/Pods-UrbanLegend-UrbanLegendUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7E2111DD94A737BCFD65886C /* Pods_UrbanLegendTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UrbanLegendTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83CF6BDA2124F3E866DBEDD2 /* Pods_UrbanLegend_UrbanLegendUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UrbanLegend_UrbanLegendUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98935D4DAA66A41B4CD10FE5 /* Pods-UrbanLegendTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UrbanLegendTests.debug.xcconfig"; path = "Target Support Files/Pods-UrbanLegendTests/Pods-UrbanLegendTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ACAD7D06E1A204BA28FC04D1 /* Pods-UrbanLegend.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UrbanLegend.release.xcconfig"; path = "Target Support Files/Pods-UrbanLegend/Pods-UrbanLegend.release.xcconfig"; sourceTree = "<group>"; };
+		B41008E0BEB854119F40A42A /* Pods-UrbanLegend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UrbanLegend.debug.xcconfig"; path = "Target Support Files/Pods-UrbanLegend/Pods-UrbanLegend.debug.xcconfig"; sourceTree = "<group>"; };
+		BEF38AA728056B8400F9E772 /* UrbanLegend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UrbanLegend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF38AAA28056B8400F9E772 /* UrbanLegendApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrbanLegendApp.swift; sourceTree = "<group>"; };
+		BEF38AAC28056B8400F9E772 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BEF38AAE28056B8800F9E772 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEF38AB128056B8800F9E772 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BEF38AB728056B8900F9E772 /* UrbanLegendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UrbanLegendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF38ABB28056B8900F9E772 /* UrbanLegendTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrbanLegendTests.swift; sourceTree = "<group>"; };
+		BEF38AC128056B8900F9E772 /* UrbanLegendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UrbanLegendUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF38AC528056B8900F9E772 /* UrbanLegendUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrbanLegendUITests.swift; sourceTree = "<group>"; };
+		BEF38AC728056B8900F9E772 /* UrbanLegendUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrbanLegendUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BEF38ADF28056D1F00F9E772 /* AppFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFonts.swift; sourceTree = "<group>"; };
+		BEF38AE128056D2A00F9E772 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		BEF38AE628056D6700F9E772 /* TemplateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateViewModel.swift; sourceTree = "<group>"; };
+		BEF38AE828056D8200F9E772 /* TemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEF38AA428056B8400F9E772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB9BC2AD1630DA14A8E051E /* Pods_UrbanLegend.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF38AB428056B8900F9E772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C29298F079DD009BE37870EA /* Pods_UrbanLegendTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF38ABE28056B8900F9E772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE9BE67A32A99B3982649E3 /* Pods_UrbanLegend_UrbanLegendUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A01A5A52F7262DDEBA7F5BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B41008E0BEB854119F40A42A /* Pods-UrbanLegend.debug.xcconfig */,
+				ACAD7D06E1A204BA28FC04D1 /* Pods-UrbanLegend.release.xcconfig */,
+				4E7981C631B732FE04F6325E /* Pods-UrbanLegend-UrbanLegendUITests.debug.xcconfig */,
+				551EA69B522EF4A7641F898C /* Pods-UrbanLegend-UrbanLegendUITests.release.xcconfig */,
+				98935D4DAA66A41B4CD10FE5 /* Pods-UrbanLegendTests.debug.xcconfig */,
+				4B955C48A54FD105161C7ECC /* Pods-UrbanLegendTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BEF38A9E28056B8400F9E772 = {
+			isa = PBXGroup;
+			children = (
+				BEF38AA928056B8400F9E772 /* UrbanLegend */,
+				BEF38ABA28056B8900F9E772 /* UrbanLegendTests */,
+				BEF38AC428056B8900F9E772 /* UrbanLegendUITests */,
+				BEF38AA828056B8400F9E772 /* Products */,
+				6A01A5A52F7262DDEBA7F5BA /* Pods */,
+				E711358CD2577B09C7DFD5A0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BEF38AA828056B8400F9E772 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEF38AA728056B8400F9E772 /* UrbanLegend.app */,
+				BEF38AB728056B8900F9E772 /* UrbanLegendTests.xctest */,
+				BEF38AC128056B8900F9E772 /* UrbanLegendUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEF38AA928056B8400F9E772 /* UrbanLegend */ = {
+			isa = PBXGroup;
+			children = (
+				BEF38AD928056BE400F9E772 /* General */,
+				BEF38ADB28056C3400F9E772 /* Theme */,
+				BEF38ADE28056CF700F9E772 /* CustomViews */,
+				BEF38AD828056BD800F9E772 /* Modules */,
+				BEF38ADC28056C3D00F9E772 /* Extensions */,
+				BEF38ADD28056CB900F9E772 /* Helpers */,
+				BEF38AD728056BD200F9E772 /* Models */,
+				BEF38AD528056BC000F9E772 /* Networking */,
+				BEF38AD428056BB800F9E772 /* Resources */,
+				BEF38AB028056B8800F9E772 /* Preview Content */,
+			);
+			path = UrbanLegend;
+			sourceTree = "<group>";
+		};
+		BEF38AB028056B8800F9E772 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BEF38AB128056B8800F9E772 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BEF38ABA28056B8900F9E772 /* UrbanLegendTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEF38ABB28056B8900F9E772 /* UrbanLegendTests.swift */,
+			);
+			path = UrbanLegendTests;
+			sourceTree = "<group>";
+		};
+		BEF38AC428056B8900F9E772 /* UrbanLegendUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEF38AC528056B8900F9E772 /* UrbanLegendUITests.swift */,
+				BEF38AC728056B8900F9E772 /* UrbanLegendUITestsLaunchTests.swift */,
+			);
+			path = UrbanLegendUITests;
+			sourceTree = "<group>";
+		};
+		BEF38AD428056BB800F9E772 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BEF38AAE28056B8800F9E772 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BEF38AD528056BC000F9E772 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				BEF38AD628056BCC00F9E772 /* Services */,
+				BEF38AEA2805720B00F9E772 /* Endpoints */,
+				BEF38ADA28056C2500F9E772 /* Mock */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		BEF38AD628056BCC00F9E772 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BEF38AD728056BD200F9E772 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BEF38AD828056BD800F9E772 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				BEF38AE328056D4400F9E772 /* Template */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		BEF38AD928056BE400F9E772 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				BEF38AAA28056B8400F9E772 /* UrbanLegendApp.swift */,
+				BEF38AAC28056B8400F9E772 /* ContentView.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		BEF38ADA28056C2500F9E772 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		BEF38ADB28056C3400F9E772 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				BEF38ADF28056D1F00F9E772 /* AppFonts.swift */,
+				BEF38AE128056D2A00F9E772 /* AppColors.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		BEF38ADC28056C3D00F9E772 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BEF38ADD28056CB900F9E772 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BEF38ADE28056CF700F9E772 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		BEF38AE328056D4400F9E772 /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				BEF38AE828056D8200F9E772 /* TemplateView.swift */,
+				BEF38AE628056D6700F9E772 /* TemplateViewModel.swift */,
+			);
+			path = Template;
+			sourceTree = "<group>";
+		};
+		BEF38AEA2805720B00F9E772 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		E711358CD2577B09C7DFD5A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				158314BD86E65733BCE11257 /* Pods_UrbanLegend.framework */,
+				83CF6BDA2124F3E866DBEDD2 /* Pods_UrbanLegend_UrbanLegendUITests.framework */,
+				7E2111DD94A737BCFD65886C /* Pods_UrbanLegendTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEF38AA628056B8400F9E772 /* UrbanLegend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF38ACB28056B8900F9E772 /* Build configuration list for PBXNativeTarget "UrbanLegend" */;
+			buildPhases = (
+				389B3A6682FC78181B6CE5C9 /* [CP] Check Pods Manifest.lock */,
+				BEF38AA328056B8400F9E772 /* Sources */,
+				BEF38AA428056B8400F9E772 /* Frameworks */,
+				BEF38AA528056B8400F9E772 /* Resources */,
+				481BB90AC6320758870A4B06 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UrbanLegend;
+			productName = UrbanLegend;
+			productReference = BEF38AA728056B8400F9E772 /* UrbanLegend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEF38AB628056B8900F9E772 /* UrbanLegendTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF38ACE28056B8900F9E772 /* Build configuration list for PBXNativeTarget "UrbanLegendTests" */;
+			buildPhases = (
+				0D45F5EF56589EE2080CA194 /* [CP] Check Pods Manifest.lock */,
+				BEF38AB328056B8900F9E772 /* Sources */,
+				BEF38AB428056B8900F9E772 /* Frameworks */,
+				BEF38AB528056B8900F9E772 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEF38AB928056B8900F9E772 /* PBXTargetDependency */,
+			);
+			name = UrbanLegendTests;
+			productName = UrbanLegendTests;
+			productReference = BEF38AB728056B8900F9E772 /* UrbanLegendTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEF38AC028056B8900F9E772 /* UrbanLegendUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF38AD128056B8900F9E772 /* Build configuration list for PBXNativeTarget "UrbanLegendUITests" */;
+			buildPhases = (
+				EB516DC0C3C8EB3FD507D260 /* [CP] Check Pods Manifest.lock */,
+				BEF38ABD28056B8900F9E772 /* Sources */,
+				BEF38ABE28056B8900F9E772 /* Frameworks */,
+				BEF38ABF28056B8900F9E772 /* Resources */,
+				8A94E79EDF93AA248CD11DC5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEF38AC328056B8900F9E772 /* PBXTargetDependency */,
+			);
+			name = UrbanLegendUITests;
+			productName = UrbanLegendUITests;
+			productReference = BEF38AC128056B8900F9E772 /* UrbanLegendUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEF38A9F28056B8400F9E772 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					BEF38AA628056B8400F9E772 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					BEF38AB628056B8900F9E772 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = BEF38AA628056B8400F9E772;
+					};
+					BEF38AC028056B8900F9E772 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = BEF38AA628056B8400F9E772;
+					};
+				};
+			};
+			buildConfigurationList = BEF38AA228056B8400F9E772 /* Build configuration list for PBXProject "UrbanLegend" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEF38A9E28056B8400F9E772;
+			productRefGroup = BEF38AA828056B8400F9E772 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEF38AA628056B8400F9E772 /* UrbanLegend */,
+				BEF38AB628056B8900F9E772 /* UrbanLegendTests */,
+				BEF38AC028056B8900F9E772 /* UrbanLegendUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEF38AA528056B8400F9E772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF38AB228056B8800F9E772 /* Preview Assets.xcassets in Resources */,
+				BEF38AAF28056B8800F9E772 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF38AB528056B8900F9E772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF38ABF28056B8900F9E772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D45F5EF56589EE2080CA194 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UrbanLegendTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		389B3A6682FC78181B6CE5C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UrbanLegend-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		481BB90AC6320758870A4B06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UrbanLegend/Pods-UrbanLegend-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UrbanLegend/Pods-UrbanLegend-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UrbanLegend/Pods-UrbanLegend-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A94E79EDF93AA248CD11DC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UrbanLegend-UrbanLegendUITests/Pods-UrbanLegend-UrbanLegendUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UrbanLegend-UrbanLegendUITests/Pods-UrbanLegend-UrbanLegendUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UrbanLegend-UrbanLegendUITests/Pods-UrbanLegend-UrbanLegendUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB516DC0C3C8EB3FD507D260 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UrbanLegend-UrbanLegendUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEF38AA328056B8400F9E772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF38AE028056D1F00F9E772 /* AppFonts.swift in Sources */,
+				BEF38AE228056D2A00F9E772 /* AppColors.swift in Sources */,
+				BEF38AE928056D8200F9E772 /* TemplateView.swift in Sources */,
+				BEF38AAD28056B8400F9E772 /* ContentView.swift in Sources */,
+				BEF38AAB28056B8400F9E772 /* UrbanLegendApp.swift in Sources */,
+				BEF38AE728056D6700F9E772 /* TemplateViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF38AB328056B8900F9E772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF38ABC28056B8900F9E772 /* UrbanLegendTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF38ABD28056B8900F9E772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF38AC828056B8900F9E772 /* UrbanLegendUITestsLaunchTests.swift in Sources */,
+				BEF38AC628056B8900F9E772 /* UrbanLegendUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEF38AB928056B8900F9E772 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEF38AA628056B8400F9E772 /* UrbanLegend */;
+			targetProxy = BEF38AB828056B8900F9E772 /* PBXContainerItemProxy */;
+		};
+		BEF38AC328056B8900F9E772 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEF38AA628056B8400F9E772 /* UrbanLegend */;
+			targetProxy = BEF38AC228056B8900F9E772 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BEF38AC928056B8900F9E772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEF38ACA28056B8900F9E772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEF38ACC28056B8900F9E772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B41008E0BEB854119F40A42A /* Pods-UrbanLegend.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UrbanLegend/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "code-and-theory.UrbanLegend";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEF38ACD28056B8900F9E772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACAD7D06E1A204BA28FC04D1 /* Pods-UrbanLegend.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UrbanLegend/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "code-and-theory.UrbanLegend";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BEF38ACF28056B8900F9E772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98935D4DAA66A41B4CD10FE5 /* Pods-UrbanLegendTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "code-and-theory.UrbanLegendTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UrbanLegend.app/UrbanLegend";
+			};
+			name = Debug;
+		};
+		BEF38AD028056B8900F9E772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B955C48A54FD105161C7ECC /* Pods-UrbanLegendTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "code-and-theory.UrbanLegendTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UrbanLegend.app/UrbanLegend";
+			};
+			name = Release;
+		};
+		BEF38AD228056B8900F9E772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E7981C631B732FE04F6325E /* Pods-UrbanLegend-UrbanLegendUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "code-and-theory.UrbanLegendUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UrbanLegend;
+			};
+			name = Debug;
+		};
+		BEF38AD328056B8900F9E772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 551EA69B522EF4A7641F898C /* Pods-UrbanLegend-UrbanLegendUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "code-and-theory.UrbanLegendUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UrbanLegend;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEF38AA228056B8400F9E772 /* Build configuration list for PBXProject "UrbanLegend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF38AC928056B8900F9E772 /* Debug */,
+				BEF38ACA28056B8900F9E772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF38ACB28056B8900F9E772 /* Build configuration list for PBXNativeTarget "UrbanLegend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF38ACC28056B8900F9E772 /* Debug */,
+				BEF38ACD28056B8900F9E772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF38ACE28056B8900F9E772 /* Build configuration list for PBXNativeTarget "UrbanLegendTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF38ACF28056B8900F9E772 /* Debug */,
+				BEF38AD028056B8900F9E772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF38AD128056B8900F9E772 /* Build configuration list for PBXNativeTarget "UrbanLegendUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF38AD228056B8900F9E772 /* Debug */,
+				BEF38AD328056B8900F9E772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEF38A9F28056B8400F9E772 /* Project object */;
+}
