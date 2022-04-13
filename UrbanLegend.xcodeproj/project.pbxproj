@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1AB9BC2AD1630DA14A8E051E /* Pods_UrbanLegend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158314BD86E65733BCE11257 /* Pods_UrbanLegend.framework */; };
-		4FE9BE67A32A99B3982649E3 /* Pods_UrbanLegend_UrbanLegendUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83CF6BDA2124F3E866DBEDD2 /* Pods_UrbanLegend_UrbanLegendUITests.framework */; };
+		BE5F9E542806A41300877445 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = BE5F9E532806A41300877445 /* Lottie */; };
 		BEF38AAB28056B8400F9E772 /* UrbanLegendApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF38AAA28056B8400F9E772 /* UrbanLegendApp.swift */; };
 		BEF38AAD28056B8400F9E772 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF38AAC28056B8400F9E772 /* ContentView.swift */; };
 		BEF38AAF28056B8800F9E772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF38AAE28056B8800F9E772 /* Assets.xcassets */; };
@@ -20,7 +19,6 @@
 		BEF38AE228056D2A00F9E772 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF38AE128056D2A00F9E772 /* AppColors.swift */; };
 		BEF38AE728056D6700F9E772 /* TemplateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF38AE628056D6700F9E772 /* TemplateViewModel.swift */; };
 		BEF38AE928056D8200F9E772 /* TemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF38AE828056D8200F9E772 /* TemplateView.swift */; };
-		C29298F079DD009BE37870EA /* Pods_UrbanLegendTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E2111DD94A737BCFD65886C /* Pods_UrbanLegendTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,15 +39,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		158314BD86E65733BCE11257 /* Pods_UrbanLegend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UrbanLegend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B955C48A54FD105161C7ECC /* Pods-UrbanLegendTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UrbanLegendTests.release.xcconfig"; path = "Target Support Files/Pods-UrbanLegendTests/Pods-UrbanLegendTests.release.xcconfig"; sourceTree = "<group>"; };
-		4E7981C631B732FE04F6325E /* Pods-UrbanLegend-UrbanLegendUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UrbanLegend-UrbanLegendUITests.debug.xcconfig"; path = "Target Support Files/Pods-UrbanLegend-UrbanLegendUITests/Pods-UrbanLegend-UrbanLegendUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		551EA69B522EF4A7641F898C /* Pods-UrbanLegend-UrbanLegendUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UrbanLegend-UrbanLegendUITests.release.xcconfig"; path = "Target Support Files/Pods-UrbanLegend-UrbanLegendUITests/Pods-UrbanLegend-UrbanLegendUITests.release.xcconfig"; sourceTree = "<group>"; };
-		7E2111DD94A737BCFD65886C /* Pods_UrbanLegendTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UrbanLegendTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		83CF6BDA2124F3E866DBEDD2 /* Pods_UrbanLegend_UrbanLegendUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UrbanLegend_UrbanLegendUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		98935D4DAA66A41B4CD10FE5 /* Pods-UrbanLegendTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UrbanLegendTests.debug.xcconfig"; path = "Target Support Files/Pods-UrbanLegendTests/Pods-UrbanLegendTests.debug.xcconfig"; sourceTree = "<group>"; };
-		ACAD7D06E1A204BA28FC04D1 /* Pods-UrbanLegend.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UrbanLegend.release.xcconfig"; path = "Target Support Files/Pods-UrbanLegend/Pods-UrbanLegend.release.xcconfig"; sourceTree = "<group>"; };
-		B41008E0BEB854119F40A42A /* Pods-UrbanLegend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UrbanLegend.debug.xcconfig"; path = "Target Support Files/Pods-UrbanLegend/Pods-UrbanLegend.debug.xcconfig"; sourceTree = "<group>"; };
 		BEF38AA728056B8400F9E772 /* UrbanLegend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UrbanLegend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF38AAA28056B8400F9E772 /* UrbanLegendApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrbanLegendApp.swift; sourceTree = "<group>"; };
 		BEF38AAC28056B8400F9E772 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AB9BC2AD1630DA14A8E051E /* Pods_UrbanLegend.framework in Frameworks */,
+				BE5F9E542806A41300877445 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,7 +68,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C29298F079DD009BE37870EA /* Pods_UrbanLegendTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,26 +75,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FE9BE67A32A99B3982649E3 /* Pods_UrbanLegend_UrbanLegendUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6A01A5A52F7262DDEBA7F5BA /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B41008E0BEB854119F40A42A /* Pods-UrbanLegend.debug.xcconfig */,
-				ACAD7D06E1A204BA28FC04D1 /* Pods-UrbanLegend.release.xcconfig */,
-				4E7981C631B732FE04F6325E /* Pods-UrbanLegend-UrbanLegendUITests.debug.xcconfig */,
-				551EA69B522EF4A7641F898C /* Pods-UrbanLegend-UrbanLegendUITests.release.xcconfig */,
-				98935D4DAA66A41B4CD10FE5 /* Pods-UrbanLegendTests.debug.xcconfig */,
-				4B955C48A54FD105161C7ECC /* Pods-UrbanLegendTests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		BEF38A9E28056B8400F9E772 = {
 			isa = PBXGroup;
 			children = (
@@ -114,8 +88,6 @@
 				BEF38ABA28056B8900F9E772 /* UrbanLegendTests */,
 				BEF38AC428056B8900F9E772 /* UrbanLegendUITests */,
 				BEF38AA828056B8400F9E772 /* Products */,
-				6A01A5A52F7262DDEBA7F5BA /* Pods */,
-				E711358CD2577B09C7DFD5A0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -273,16 +245,6 @@
 			path = Endpoints;
 			sourceTree = "<group>";
 		};
-		E711358CD2577B09C7DFD5A0 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				158314BD86E65733BCE11257 /* Pods_UrbanLegend.framework */,
-				83CF6BDA2124F3E866DBEDD2 /* Pods_UrbanLegend_UrbanLegendUITests.framework */,
-				7E2111DD94A737BCFD65886C /* Pods_UrbanLegendTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -290,17 +252,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEF38ACB28056B8900F9E772 /* Build configuration list for PBXNativeTarget "UrbanLegend" */;
 			buildPhases = (
-				389B3A6682FC78181B6CE5C9 /* [CP] Check Pods Manifest.lock */,
 				BEF38AA328056B8400F9E772 /* Sources */,
 				BEF38AA428056B8400F9E772 /* Frameworks */,
 				BEF38AA528056B8400F9E772 /* Resources */,
-				481BB90AC6320758870A4B06 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = UrbanLegend;
+			packageProductDependencies = (
+				BE5F9E532806A41300877445 /* Lottie */,
+			);
 			productName = UrbanLegend;
 			productReference = BEF38AA728056B8400F9E772 /* UrbanLegend.app */;
 			productType = "com.apple.product-type.application";
@@ -309,7 +272,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEF38ACE28056B8900F9E772 /* Build configuration list for PBXNativeTarget "UrbanLegendTests" */;
 			buildPhases = (
-				0D45F5EF56589EE2080CA194 /* [CP] Check Pods Manifest.lock */,
 				BEF38AB328056B8900F9E772 /* Sources */,
 				BEF38AB428056B8900F9E772 /* Frameworks */,
 				BEF38AB528056B8900F9E772 /* Resources */,
@@ -328,11 +290,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEF38AD128056B8900F9E772 /* Build configuration list for PBXNativeTarget "UrbanLegendUITests" */;
 			buildPhases = (
-				EB516DC0C3C8EB3FD507D260 /* [CP] Check Pods Manifest.lock */,
 				BEF38ABD28056B8900F9E772 /* Sources */,
 				BEF38ABE28056B8900F9E772 /* Frameworks */,
 				BEF38ABF28056B8900F9E772 /* Resources */,
-				8A94E79EDF93AA248CD11DC5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -376,6 +336,9 @@
 				Base,
 			);
 			mainGroup = BEF38A9E28056B8400F9E772;
+			packageReferences = (
+				BE5F9E522806A41300877445 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = BEF38AA828056B8400F9E772 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -412,109 +375,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		0D45F5EF56589EE2080CA194 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-UrbanLegendTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		389B3A6682FC78181B6CE5C9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-UrbanLegend-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		481BB90AC6320758870A4B06 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-UrbanLegend/Pods-UrbanLegend-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-UrbanLegend/Pods-UrbanLegend-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UrbanLegend/Pods-UrbanLegend-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8A94E79EDF93AA248CD11DC5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-UrbanLegend-UrbanLegendUITests/Pods-UrbanLegend-UrbanLegendUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-UrbanLegend-UrbanLegendUITests/Pods-UrbanLegend-UrbanLegendUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UrbanLegend-UrbanLegendUITests/Pods-UrbanLegend-UrbanLegendUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EB516DC0C3C8EB3FD507D260 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-UrbanLegend-UrbanLegendUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BEF38AA328056B8400F9E772 /* Sources */ = {
@@ -681,7 +541,6 @@
 		};
 		BEF38ACC28056B8900F9E772 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B41008E0BEB854119F40A42A /* Pods-UrbanLegend.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -710,7 +569,6 @@
 		};
 		BEF38ACD28056B8900F9E772 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ACAD7D06E1A204BA28FC04D1 /* Pods-UrbanLegend.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -739,7 +597,6 @@
 		};
 		BEF38ACF28056B8900F9E772 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98935D4DAA66A41B4CD10FE5 /* Pods-UrbanLegendTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -759,7 +616,6 @@
 		};
 		BEF38AD028056B8900F9E772 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B955C48A54FD105161C7ECC /* Pods-UrbanLegendTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -779,7 +635,6 @@
 		};
 		BEF38AD228056B8900F9E772 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E7981C631B732FE04F6325E /* Pods-UrbanLegend-UrbanLegendUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -797,7 +652,6 @@
 		};
 		BEF38AD328056B8900F9E772 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 551EA69B522EF4A7641F898C /* Pods-UrbanLegend-UrbanLegendUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -853,6 +707,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BE5F9E522806A41300877445 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BE5F9E532806A41300877445 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE5F9E522806A41300877445 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BEF38A9F28056B8400F9E772 /* Project object */;
 }
