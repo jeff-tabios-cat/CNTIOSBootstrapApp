@@ -8,13 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		BE5F9E542806A41300877445 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = BE5F9E532806A41300877445 /* Lottie */; };
+		BEA7B087280E93330080258D /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA7B086280E93330080258D /* NavigationView.swift */; };
+		BEA7B089280E93520080258D /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA7B088280E93520080258D /* AppState.swift */; };
+		BEA7B08B280E936B0080258D /* Strings+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA7B08A280E936B0080258D /* Strings+.swift */; };
+		BEA7B08D280E943D0080258D /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA7B08C280E943D0080258D /* CurrencyFormatter.swift */; };
+		BEA7B08F280E94710080258D /* Campaigns.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA7B08E280E94710080258D /* Campaigns.swift */; };
+		BEA7B091280E94D50080258D /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA7B090280E94D50080258D /* LoginService.swift */; };
+		BEA7B093280E94E10080258D /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA7B092280E94E10080258D /* Endpoints.swift */; };
+		BEA7B095280E95400080258D /* MockURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA7B094280E95400080258D /* MockURLSession.swift */; };
 		BEF38AAB28056B8400F9E772 /* UrbanLegendApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF38AAA28056B8400F9E772 /* UrbanLegendApp.swift */; };
 		BEF38AAD28056B8400F9E772 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF38AAC28056B8400F9E772 /* ContentView.swift */; };
 		BEF38AAF28056B8800F9E772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF38AAE28056B8800F9E772 /* Assets.xcassets */; };
 		BEF38AB228056B8800F9E772 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF38AB128056B8800F9E772 /* Preview Assets.xcassets */; };
-		BEF38ABC28056B8900F9E772 /* UrbanLegendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF38ABB28056B8900F9E772 /* UrbanLegendTests.swift */; };
-		BEF38AC628056B8900F9E772 /* UrbanLegendUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF38AC528056B8900F9E772 /* UrbanLegendUITests.swift */; };
-		BEF38AC828056B8900F9E772 /* UrbanLegendUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF38AC728056B8900F9E772 /* UrbanLegendUITestsLaunchTests.swift */; };
+		BEF38ABC28056B8900F9E772 /* CNTIOSBootstrapAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF38ABB28056B8900F9E772 /* CNTIOSBootstrapAppTests.swift */; };
+		BEF38AC628056B8900F9E772 /* CNTIOSBootstrapAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF38AC528056B8900F9E772 /* CNTIOSBootstrapAppUITests.swift */; };
+		BEF38AC828056B8900F9E772 /* CNTIOSBootstrapAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF38AC728056B8900F9E772 /* CNTIOSBootstrapAppUITestsLaunchTests.swift */; };
 		BEF38AE028056D1F00F9E772 /* AppFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF38ADF28056D1F00F9E772 /* AppFonts.swift */; };
 		BEF38AE228056D2A00F9E772 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF38AE128056D2A00F9E772 /* AppColors.swift */; };
 		BEF38AE728056D6700F9E772 /* TemplateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF38AE628056D6700F9E772 /* TemplateViewModel.swift */; };
@@ -39,16 +47,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BEF38AA728056B8400F9E772 /* UrbanLegend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UrbanLegend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA7B086280E93330080258D /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		BEA7B088280E93520080258D /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		BEA7B08A280E936B0080258D /* Strings+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Strings+.swift"; sourceTree = "<group>"; };
+		BEA7B08C280E943D0080258D /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
+		BEA7B08E280E94710080258D /* Campaigns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Campaigns.swift; sourceTree = "<group>"; };
+		BEA7B090280E94D50080258D /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		BEA7B092280E94E10080258D /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		BEA7B094280E95400080258D /* MockURLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLSession.swift; sourceTree = "<group>"; };
+		BEF38AA728056B8400F9E772 /* CNTIOSBootstrapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CNTIOSBootstrapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF38AAA28056B8400F9E772 /* UrbanLegendApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrbanLegendApp.swift; sourceTree = "<group>"; };
 		BEF38AAC28056B8400F9E772 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BEF38AAE28056B8800F9E772 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEF38AB128056B8800F9E772 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		BEF38AB728056B8900F9E772 /* UrbanLegendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UrbanLegendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEF38ABB28056B8900F9E772 /* UrbanLegendTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrbanLegendTests.swift; sourceTree = "<group>"; };
-		BEF38AC128056B8900F9E772 /* UrbanLegendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UrbanLegendUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEF38AC528056B8900F9E772 /* UrbanLegendUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrbanLegendUITests.swift; sourceTree = "<group>"; };
-		BEF38AC728056B8900F9E772 /* UrbanLegendUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrbanLegendUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BEF38AB728056B8900F9E772 /* CNTIOSBootstrapAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CNTIOSBootstrapAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF38ABB28056B8900F9E772 /* CNTIOSBootstrapAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNTIOSBootstrapAppTests.swift; sourceTree = "<group>"; };
+		BEF38AC128056B8900F9E772 /* CNTIOSBootstrapAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CNTIOSBootstrapAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF38AC528056B8900F9E772 /* CNTIOSBootstrapAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNTIOSBootstrapAppUITests.swift; sourceTree = "<group>"; };
+		BEF38AC728056B8900F9E772 /* CNTIOSBootstrapAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNTIOSBootstrapAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BEF38ADF28056D1F00F9E772 /* AppFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFonts.swift; sourceTree = "<group>"; };
 		BEF38AE128056D2A00F9E772 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		BEF38AE628056D6700F9E772 /* TemplateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateViewModel.swift; sourceTree = "<group>"; };
@@ -81,12 +97,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BEA7B085280E931E0080258D /* NavigationView */ = {
+			isa = PBXGroup;
+			children = (
+				BEA7B086280E93330080258D /* NavigationView.swift */,
+			);
+			path = NavigationView;
+			sourceTree = "<group>";
+		};
 		BEF38A9E28056B8400F9E772 = {
 			isa = PBXGroup;
 			children = (
-				BEF38AA928056B8400F9E772 /* UrbanLegend */,
-				BEF38ABA28056B8900F9E772 /* UrbanLegendTests */,
-				BEF38AC428056B8900F9E772 /* UrbanLegendUITests */,
+				BEF38AA928056B8400F9E772 /* CNTIOSBootstrapApp */,
+				BEF38ABA28056B8900F9E772 /* CNTIOSBootstrapAppTests */,
+				BEF38AC428056B8900F9E772 /* CNTIOSBootstrapAppUITests */,
 				BEF38AA828056B8400F9E772 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,14 +118,14 @@
 		BEF38AA828056B8400F9E772 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BEF38AA728056B8400F9E772 /* UrbanLegend.app */,
-				BEF38AB728056B8900F9E772 /* UrbanLegendTests.xctest */,
-				BEF38AC128056B8900F9E772 /* UrbanLegendUITests.xctest */,
+				BEF38AA728056B8400F9E772 /* CNTIOSBootstrapApp.app */,
+				BEF38AB728056B8900F9E772 /* CNTIOSBootstrapAppTests.xctest */,
+				BEF38AC128056B8900F9E772 /* CNTIOSBootstrapAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BEF38AA928056B8400F9E772 /* UrbanLegend */ = {
+		BEF38AA928056B8400F9E772 /* CNTIOSBootstrapApp */ = {
 			isa = PBXGroup;
 			children = (
 				BEF38AD928056BE400F9E772 /* General */,
@@ -115,7 +139,7 @@
 				BEF38AD428056BB800F9E772 /* Resources */,
 				BEF38AB028056B8800F9E772 /* Preview Content */,
 			);
-			path = UrbanLegend;
+			path = CNTIOSBootstrapApp;
 			sourceTree = "<group>";
 		};
 		BEF38AB028056B8800F9E772 /* Preview Content */ = {
@@ -126,21 +150,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		BEF38ABA28056B8900F9E772 /* UrbanLegendTests */ = {
+		BEF38ABA28056B8900F9E772 /* CNTIOSBootstrapAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				BEF38ABB28056B8900F9E772 /* UrbanLegendTests.swift */,
+				BEF38ABB28056B8900F9E772 /* CNTIOSBootstrapAppTests.swift */,
 			);
-			path = UrbanLegendTests;
+			path = CNTIOSBootstrapAppTests;
 			sourceTree = "<group>";
 		};
-		BEF38AC428056B8900F9E772 /* UrbanLegendUITests */ = {
+		BEF38AC428056B8900F9E772 /* CNTIOSBootstrapAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				BEF38AC528056B8900F9E772 /* UrbanLegendUITests.swift */,
-				BEF38AC728056B8900F9E772 /* UrbanLegendUITestsLaunchTests.swift */,
+				BEF38AC528056B8900F9E772 /* CNTIOSBootstrapAppUITests.swift */,
+				BEF38AC728056B8900F9E772 /* CNTIOSBootstrapAppUITestsLaunchTests.swift */,
 			);
-			path = UrbanLegendUITests;
+			path = CNTIOSBootstrapAppUITests;
 			sourceTree = "<group>";
 		};
 		BEF38AD428056BB800F9E772 /* Resources */ = {
@@ -164,6 +188,7 @@
 		BEF38AD628056BCC00F9E772 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				BEA7B090280E94D50080258D /* LoginService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -171,6 +196,7 @@
 		BEF38AD728056BD200F9E772 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BEA7B08E280E94710080258D /* Campaigns.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -188,6 +214,7 @@
 			children = (
 				BEF38AAA28056B8400F9E772 /* UrbanLegendApp.swift */,
 				BEF38AAC28056B8400F9E772 /* ContentView.swift */,
+				BEA7B088280E93520080258D /* AppState.swift */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -195,6 +222,7 @@
 		BEF38ADA28056C2500F9E772 /* Mock */ = {
 			isa = PBXGroup;
 			children = (
+				BEA7B094280E95400080258D /* MockURLSession.swift */,
 			);
 			path = Mock;
 			sourceTree = "<group>";
@@ -211,6 +239,7 @@
 		BEF38ADC28056C3D00F9E772 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				BEA7B08A280E936B0080258D /* Strings+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -218,6 +247,7 @@
 		BEF38ADD28056CB900F9E772 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				BEA7B08C280E943D0080258D /* CurrencyFormatter.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -225,6 +255,7 @@
 		BEF38ADE28056CF700F9E772 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				BEA7B085280E931E0080258D /* NavigationView */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -241,6 +272,7 @@
 		BEF38AEA2805720B00F9E772 /* Endpoints */ = {
 			isa = PBXGroup;
 			children = (
+				BEA7B092280E94E10080258D /* Endpoints.swift */,
 			);
 			path = Endpoints;
 			sourceTree = "<group>";
@@ -248,9 +280,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BEF38AA628056B8400F9E772 /* UrbanLegend */ = {
+		BEF38AA628056B8400F9E772 /* CNTIOSBootstrapApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BEF38ACB28056B8900F9E772 /* Build configuration list for PBXNativeTarget "UrbanLegend" */;
+			buildConfigurationList = BEF38ACB28056B8900F9E772 /* Build configuration list for PBXNativeTarget "CNTIOSBootstrapApp" */;
 			buildPhases = (
 				BEF38AA328056B8400F9E772 /* Sources */,
 				BEF38AA428056B8400F9E772 /* Frameworks */,
@@ -260,17 +292,17 @@
 			);
 			dependencies = (
 			);
-			name = UrbanLegend;
+			name = CNTIOSBootstrapApp;
 			packageProductDependencies = (
 				BE5F9E532806A41300877445 /* Lottie */,
 			);
 			productName = UrbanLegend;
-			productReference = BEF38AA728056B8400F9E772 /* UrbanLegend.app */;
+			productReference = BEF38AA728056B8400F9E772 /* CNTIOSBootstrapApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BEF38AB628056B8900F9E772 /* UrbanLegendTests */ = {
+		BEF38AB628056B8900F9E772 /* CNTIOSBootstrapAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BEF38ACE28056B8900F9E772 /* Build configuration list for PBXNativeTarget "UrbanLegendTests" */;
+			buildConfigurationList = BEF38ACE28056B8900F9E772 /* Build configuration list for PBXNativeTarget "CNTIOSBootstrapAppTests" */;
 			buildPhases = (
 				BEF38AB328056B8900F9E772 /* Sources */,
 				BEF38AB428056B8900F9E772 /* Frameworks */,
@@ -281,14 +313,14 @@
 			dependencies = (
 				BEF38AB928056B8900F9E772 /* PBXTargetDependency */,
 			);
-			name = UrbanLegendTests;
+			name = CNTIOSBootstrapAppTests;
 			productName = UrbanLegendTests;
-			productReference = BEF38AB728056B8900F9E772 /* UrbanLegendTests.xctest */;
+			productReference = BEF38AB728056B8900F9E772 /* CNTIOSBootstrapAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BEF38AC028056B8900F9E772 /* UrbanLegendUITests */ = {
+		BEF38AC028056B8900F9E772 /* CNTIOSBootstrapAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BEF38AD128056B8900F9E772 /* Build configuration list for PBXNativeTarget "UrbanLegendUITests" */;
+			buildConfigurationList = BEF38AD128056B8900F9E772 /* Build configuration list for PBXNativeTarget "CNTIOSBootstrapAppUITests" */;
 			buildPhases = (
 				BEF38ABD28056B8900F9E772 /* Sources */,
 				BEF38ABE28056B8900F9E772 /* Frameworks */,
@@ -299,9 +331,9 @@
 			dependencies = (
 				BEF38AC328056B8900F9E772 /* PBXTargetDependency */,
 			);
-			name = UrbanLegendUITests;
+			name = CNTIOSBootstrapAppUITests;
 			productName = UrbanLegendUITests;
-			productReference = BEF38AC128056B8900F9E772 /* UrbanLegendUITests.xctest */;
+			productReference = BEF38AC128056B8900F9E772 /* CNTIOSBootstrapAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -327,7 +359,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BEF38AA228056B8400F9E772 /* Build configuration list for PBXProject "UrbanLegend" */;
+			buildConfigurationList = BEF38AA228056B8400F9E772 /* Build configuration list for PBXProject "CNTIOSBootstrapApp" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -343,9 +375,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BEF38AA628056B8400F9E772 /* UrbanLegend */,
-				BEF38AB628056B8900F9E772 /* UrbanLegendTests */,
-				BEF38AC028056B8900F9E772 /* UrbanLegendUITests */,
+				BEF38AA628056B8400F9E772 /* CNTIOSBootstrapApp */,
+				BEF38AB628056B8900F9E772 /* CNTIOSBootstrapAppTests */,
+				BEF38AC028056B8900F9E772 /* CNTIOSBootstrapAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -381,12 +413,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEA7B087280E93330080258D /* NavigationView.swift in Sources */,
 				BEF38AE028056D1F00F9E772 /* AppFonts.swift in Sources */,
+				BEA7B093280E94E10080258D /* Endpoints.swift in Sources */,
 				BEF38AE228056D2A00F9E772 /* AppColors.swift in Sources */,
+				BEA7B095280E95400080258D /* MockURLSession.swift in Sources */,
+				BEA7B089280E93520080258D /* AppState.swift in Sources */,
 				BEF38AE928056D8200F9E772 /* TemplateView.swift in Sources */,
+				BEA7B08B280E936B0080258D /* Strings+.swift in Sources */,
 				BEF38AAD28056B8400F9E772 /* ContentView.swift in Sources */,
+				BEA7B091280E94D50080258D /* LoginService.swift in Sources */,
 				BEF38AAB28056B8400F9E772 /* UrbanLegendApp.swift in Sources */,
 				BEF38AE728056D6700F9E772 /* TemplateViewModel.swift in Sources */,
+				BEA7B08F280E94710080258D /* Campaigns.swift in Sources */,
+				BEA7B08D280E943D0080258D /* CurrencyFormatter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,7 +434,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEF38ABC28056B8900F9E772 /* UrbanLegendTests.swift in Sources */,
+				BEF38ABC28056B8900F9E772 /* CNTIOSBootstrapAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,8 +442,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEF38AC828056B8900F9E772 /* UrbanLegendUITestsLaunchTests.swift in Sources */,
-				BEF38AC628056B8900F9E772 /* UrbanLegendUITests.swift in Sources */,
+				BEF38AC828056B8900F9E772 /* CNTIOSBootstrapAppUITestsLaunchTests.swift in Sources */,
+				BEF38AC628056B8900F9E772 /* CNTIOSBootstrapAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,12 +452,12 @@
 /* Begin PBXTargetDependency section */
 		BEF38AB928056B8900F9E772 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BEF38AA628056B8400F9E772 /* UrbanLegend */;
+			target = BEF38AA628056B8400F9E772 /* CNTIOSBootstrapApp */;
 			targetProxy = BEF38AB828056B8900F9E772 /* PBXContainerItemProxy */;
 		};
 		BEF38AC328056B8900F9E772 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BEF38AA628056B8400F9E772 /* UrbanLegend */;
+			target = BEF38AA628056B8400F9E772 /* CNTIOSBootstrapApp */;
 			targetProxy = BEF38AC228056B8900F9E772 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -546,7 +586,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"UrbanLegend/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CNTIOSBootstrapApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -574,7 +614,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"UrbanLegend/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CNTIOSBootstrapApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -610,7 +650,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UrbanLegend.app/UrbanLegend";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CNTIOSBootstrapApp.app/CNTIOSBootstrapApp";
 			};
 			name = Debug;
 		};
@@ -629,7 +669,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UrbanLegend.app/UrbanLegend";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CNTIOSBootstrapApp.app/CNTIOSBootstrapApp";
 			};
 			name = Release;
 		};
@@ -670,7 +710,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BEF38AA228056B8400F9E772 /* Build configuration list for PBXProject "UrbanLegend" */ = {
+		BEF38AA228056B8400F9E772 /* Build configuration list for PBXProject "CNTIOSBootstrapApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BEF38AC928056B8900F9E772 /* Debug */,
@@ -679,7 +719,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BEF38ACB28056B8900F9E772 /* Build configuration list for PBXNativeTarget "UrbanLegend" */ = {
+		BEF38ACB28056B8900F9E772 /* Build configuration list for PBXNativeTarget "CNTIOSBootstrapApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BEF38ACC28056B8900F9E772 /* Debug */,
@@ -688,7 +728,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BEF38ACE28056B8900F9E772 /* Build configuration list for PBXNativeTarget "UrbanLegendTests" */ = {
+		BEF38ACE28056B8900F9E772 /* Build configuration list for PBXNativeTarget "CNTIOSBootstrapAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BEF38ACF28056B8900F9E772 /* Debug */,
@@ -697,7 +737,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BEF38AD128056B8900F9E772 /* Build configuration list for PBXNativeTarget "UrbanLegendUITests" */ = {
+		BEF38AD128056B8900F9E772 /* Build configuration list for PBXNativeTarget "CNTIOSBootstrapAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BEF38AD228056B8900F9E772 /* Debug */,

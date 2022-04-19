@@ -1,13 +1,13 @@
 //
-//  UrbanLegendUITestsLaunchTests.swift
-//  UrbanLegendUITests
+//  CNTIOSBootstrapAppUITestsLaunchTests.swift
+//  CNTIOSBootstrapAppUITests
 //
 //  Created by Jeffrey Tabios on 4/12/22.
 //
 
 import XCTest
 
-class UrbanLegendUITestsLaunchTests: XCTestCase {
+class CNTIOSBootstrapAppUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
