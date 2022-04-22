@@ -27,6 +27,14 @@
 		BEF38AE228056D2A00F9E772 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF38AE128056D2A00F9E772 /* AppColors.swift */; };
 		BEF38AE728056D6700F9E772 /* TemplateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF38AE628056D6700F9E772 /* TemplateViewModel.swift */; };
 		BEF38AE928056D8200F9E772 /* TemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF38AE828056D8200F9E772 /* TemplateView.swift */; };
+		E41F1A5A2811217300BC5C7F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F1A592811217300BC5C7F /* LoginView.swift */; };
+		E4AF612828123E7A00D592D3 /* AppTypographyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AF612728123E7A00D592D3 /* AppTypographyStyle.swift */; };
+		E4AF612A2812451E00D592D3 /* CNTButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AF61292812451E00D592D3 /* CNTButtonStyle.swift */; };
+		E4AF612D2812456B00D592D3 /* AppTypographyStyleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AF612C2812456B00D592D3 /* AppTypographyStyleModifier.swift */; };
+		E4AF612F2812462800D592D3 /* CNTButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AF612E2812462800D592D3 /* CNTButton.swift */; };
+		E4AF6132281246B200D592D3 /* CNTTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AF6131281246B200D592D3 /* CNTTextField.swift */; };
+		E4AF6134281246DA00D592D3 /* VisibilityModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AF6133281246DA00D592D3 /* VisibilityModifier.swift */; };
+		E4AF613628124FF200D592D3 /* LoginView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AF613528124FF200D592D3 /* LoginView+ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +77,14 @@
 		BEF38AE128056D2A00F9E772 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		BEF38AE628056D6700F9E772 /* TemplateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateViewModel.swift; sourceTree = "<group>"; };
 		BEF38AE828056D8200F9E772 /* TemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateView.swift; sourceTree = "<group>"; };
+		E41F1A592811217300BC5C7F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E4AF612728123E7A00D592D3 /* AppTypographyStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTypographyStyle.swift; sourceTree = "<group>"; };
+		E4AF61292812451E00D592D3 /* CNTButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNTButtonStyle.swift; sourceTree = "<group>"; };
+		E4AF612C2812456B00D592D3 /* AppTypographyStyleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTypographyStyleModifier.swift; sourceTree = "<group>"; };
+		E4AF612E2812462800D592D3 /* CNTButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNTButton.swift; sourceTree = "<group>"; };
+		E4AF6131281246B200D592D3 /* CNTTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNTTextField.swift; sourceTree = "<group>"; };
+		E4AF6133281246DA00D592D3 /* VisibilityModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisibilityModifier.swift; sourceTree = "<group>"; };
+		E4AF613528124FF200D592D3 /* LoginView+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginView+ViewModel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +220,7 @@
 		BEF38AD828056BD800F9E772 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				E41F1A582811216000BC5C7F /* Login */,
 				BEF38AE328056D4400F9E772 /* Template */,
 			);
 			path = Modules;
@@ -232,6 +249,7 @@
 			children = (
 				BEF38ADF28056D1F00F9E772 /* AppFonts.swift */,
 				BEF38AE128056D2A00F9E772 /* AppColors.swift */,
+				E4AF612728123E7A00D592D3 /* AppTypographyStyle.swift */,
 			);
 			path = Theme;
 			sourceTree = "<group>";
@@ -247,6 +265,7 @@
 		BEF38ADD28056CB900F9E772 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				E4AF612B2812455700D592D3 /* ViewModifiers */,
 				BEA7B08C280E943D0080258D /* CurrencyFormatter.swift */,
 			);
 			path = Helpers;
@@ -255,6 +274,8 @@
 		BEF38ADE28056CF700F9E772 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				E4AF61302812469C00D592D3 /* TextField */,
+				E4AF612628123DE600D592D3 /* Button */,
 				BEA7B085280E931E0080258D /* NavigationView */,
 			);
 			path = CustomViews;
@@ -275,6 +296,41 @@
 				BEA7B092280E94E10080258D /* Endpoints.swift */,
 			);
 			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		E41F1A582811216000BC5C7F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E41F1A592811217300BC5C7F /* LoginView.swift */,
+				E4AF613528124FF200D592D3 /* LoginView+ViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		E4AF612628123DE600D592D3 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				E4AF61292812451E00D592D3 /* CNTButtonStyle.swift */,
+				E4AF612E2812462800D592D3 /* CNTButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		E4AF612B2812455700D592D3 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				E4AF612C2812456B00D592D3 /* AppTypographyStyleModifier.swift */,
+				E4AF6133281246DA00D592D3 /* VisibilityModifier.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		E4AF61302812469C00D592D3 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				E4AF6131281246B200D592D3 /* CNTTextField.swift */,
+			);
+			path = TextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -416,17 +472,25 @@
 				BEA7B087280E93330080258D /* NavigationView.swift in Sources */,
 				BEF38AE028056D1F00F9E772 /* AppFonts.swift in Sources */,
 				BEA7B093280E94E10080258D /* Endpoints.swift in Sources */,
+				E41F1A5A2811217300BC5C7F /* LoginView.swift in Sources */,
 				BEF38AE228056D2A00F9E772 /* AppColors.swift in Sources */,
 				BEA7B095280E95400080258D /* MockURLSession.swift in Sources */,
+				E4AF612D2812456B00D592D3 /* AppTypographyStyleModifier.swift in Sources */,
 				BEA7B089280E93520080258D /* AppState.swift in Sources */,
 				BEF38AE928056D8200F9E772 /* TemplateView.swift in Sources */,
+				E4AF612A2812451E00D592D3 /* CNTButtonStyle.swift in Sources */,
 				BEA7B08B280E936B0080258D /* Strings+.swift in Sources */,
 				BEF38AAD28056B8400F9E772 /* ContentView.swift in Sources */,
 				BEA7B091280E94D50080258D /* LoginService.swift in Sources */,
 				BEF38AAB28056B8400F9E772 /* UrbanLegendApp.swift in Sources */,
+				E4AF612828123E7A00D592D3 /* AppTypographyStyle.swift in Sources */,
+				E4AF612F2812462800D592D3 /* CNTButton.swift in Sources */,
+				E4AF6134281246DA00D592D3 /* VisibilityModifier.swift in Sources */,
 				BEF38AE728056D6700F9E772 /* TemplateViewModel.swift in Sources */,
 				BEA7B08F280E94710080258D /* Campaigns.swift in Sources */,
 				BEA7B08D280E943D0080258D /* CurrencyFormatter.swift in Sources */,
+				E4AF6132281246B200D592D3 /* CNTTextField.swift in Sources */,
+				E4AF613628124FF200D592D3 /* LoginView+ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
