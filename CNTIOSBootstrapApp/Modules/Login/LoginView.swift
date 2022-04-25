@@ -81,6 +81,9 @@ struct LoginView: View {
           }
         }
         .padding(16)
+        
+          //TODO: Link to main page
+//          NavigationLink(destination: MAINPAGE(), isActive: $viewModel.isFTUEViewActive){}
       }
     }
   }

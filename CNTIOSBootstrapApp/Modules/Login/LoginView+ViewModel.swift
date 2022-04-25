@@ -15,7 +15,7 @@ extension LoginView {
         @Published var password = ""
         @Published var passwordFieldState: CNTTextField.UIState = .active
         
-        let isLogged = PassthroughSubject<Bool, Never>()
+        @Published var isLogged: Bool = false
         
         private var cancellables: Set<AnyCancellable> = []
         
@@ -34,7 +34,7 @@ extension LoginView {
                 }, receiveValue: { [weak self] response in
                     guard let self = self else { return }
                     // do something with response
-                    self.isLogged.send(true)
+                    self.isLogged = true
                 }).store(in: &cancellables)
         }
     }
