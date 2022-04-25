@@ -13,11 +13,45 @@ struct CampaignSummary: View {
     var body: some View {
         ZStack {
             VStack {
-                Image(campaign.logo)
-                Text(campaign.title)
-                Text(campaign.subtitle)
-                Text(campaign.conversions)
-                Text(campaign.revenue)
+                HStack {
+                    Image(campaign.logo)
+                    Spacer()
+                }
+                
+                HStack {
+                    Text(campaign.title)
+                        .bold()
+                        .font(.system(size: 20))
+                    Spacer()
+                }
+                
+                HStack {
+                    Text(campaign.subtitle)
+                    Spacer()
+                }
+                
+                HStack(alignment: .center) {
+                    Spacer()
+                    
+                    VStack {
+                        Text("Conversions")
+                        Text(campaign.conversions)
+                    }
+                    .padding()
+                    
+                    Spacer()
+                    
+                    VStack {
+                        Text("Revenue")
+                        Text(campaign.revenue)
+                    }.padding()
+                    
+                    Spacer()
+                }
+                .background(
+                    RoundedRectangle(cornerRadius: 50, style: .continuous).fill(Color.red)
+                )
+                .padding(.top, 10)
             }
             .frame(maxWidth: .infinity)
             .padding()
