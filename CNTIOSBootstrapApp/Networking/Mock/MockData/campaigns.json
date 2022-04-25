@@ -1,0 +1,46 @@
+{
+    "campaigns": [
+        {
+            "logo": "leslie",
+            "title": "Leslie Knope for Congress",
+            "subtitle": "Direct Donations",
+            "conversions": "0",
+            "revenue": "$0.00"
+        },
+        {
+            "logo": "shipmates",
+            "title": "Shipmates Innovation Lab",
+            "subtitle": "Newsletter Signups",
+            "conversions": "0",
+            "revenue": "$0.00"
+        },
+        {
+            "logo": "single",
+            "title": "From Single Use to Re-use",
+            "subtitle": "Newsletter Signups",
+            "conversions": "0",
+            "revenue": "$0.00"
+        },
+        {
+            "logo": "pfizer",
+            "title": "Pfizer",
+            "subtitle": "Landing Page Visits",
+            "conversions": "0",
+            "revenue": "$0.00"
+        },
+        {
+            "logo": "human",
+            "title": "Human Rights Campaign",
+            "subtitle": "Petition Signatures",
+            "conversions": "0",
+            "revenue": "$0.00"
+        },
+        {
+            "logo": "waffle",
+            "title": "Waffle Makers of America",
+            "subtitle": "Petition Signatures",
+            "conversions": "0",
+            "revenue": "$0.00"
+        }
+    ]
+}

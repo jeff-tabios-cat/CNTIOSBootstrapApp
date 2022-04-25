@@ -7,6 +7,13 @@
 
 import Foundation
 
+// MARK: - Campaigns
 struct Campaigns: Codable {
-    //vars go here
+    let campaigns: [Campaign]
+}
+
+// MARK: - Campaign
+struct Campaign: Codable {
+    let logo, title, subtitle, conversions: String
+    let revenue: String
 }

@@ -11,8 +11,7 @@ import SwiftUI
 struct CNTIOSBootstrapApp: App {
     var body: some Scene {
         WindowGroup {
-//            ContentView()
-          LoginView()
+            ContentView()
         }
     }
 }

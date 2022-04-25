@@ -55,7 +55,7 @@ struct LoginView: View {
           }
 
           CNTButton("Sign In", theme: .primary) {
-            print("Sign In tapped")
+              viewModel.login()
           }
           .frame(height: 50)
           .padding(.bottom, 15)
@@ -82,10 +82,10 @@ struct LoginView: View {
         }
         .padding(16)
         
-          //TODO: Link to main page
-//          NavigationLink(destination: MAINPAGE(), isActive: $viewModel.isFTUEViewActive){}
+          NavigationLink(destination: CampaignsView(), isActive: $viewModel.isLogged){}
       }
     }
+    .navigationBarHidden(true)
   }
 }
 

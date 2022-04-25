@@ -35,6 +35,11 @@
 		BEFA157228169E1D0003C569 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFA157128169E1D0003C569 /* Constants.swift */; };
 		BEFA15742816A2B00003C569 /* APIServicesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFA15732816A2B00003C569 /* APIServicesTest.swift */; };
 		BEFA15752816AA300003C569 /* login.json in Resources */ = {isa = PBXBuildFile; fileRef = BEFA156428114BE60003C569 /* login.json */; };
+		BEFA1578281704FE0003C569 /* CampaignsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFA1577281704FE0003C569 /* CampaignsView.swift */; };
+		BEFA157A281706590003C569 /* CampaignsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFA1579281706590003C569 /* CampaignsViewModel.swift */; };
+		BEFA157C281708600003C569 /* CampaignSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFA157B281708600003C569 /* CampaignSummary.swift */; };
+		BEFA157F28170BCA0003C569 /* CampaignsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFA157E28170BCA0003C569 /* CampaignsService.swift */; };
+		BEFA1581281711960003C569 /* campaigns.json in Resources */ = {isa = PBXBuildFile; fileRef = BEFA157D28170A820003C569 /* campaigns.json */; };
 		E41F1A5A2811217300BC5C7F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F1A592811217300BC5C7F /* LoginView.swift */; };
 		E4AF612828123E7A00D592D3 /* AppTypographyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AF612728123E7A00D592D3 /* AppTypographyStyle.swift */; };
 		E4AF612A2812451E00D592D3 /* CNTButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AF61292812451E00D592D3 /* CNTButtonStyle.swift */; };
@@ -93,6 +98,11 @@
 		BEFA156F28169D480003C569 /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		BEFA157128169E1D0003C569 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		BEFA15732816A2B00003C569 /* APIServicesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServicesTest.swift; sourceTree = "<group>"; };
+		BEFA1577281704FE0003C569 /* CampaignsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignsView.swift; sourceTree = "<group>"; };
+		BEFA1579281706590003C569 /* CampaignsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignsViewModel.swift; sourceTree = "<group>"; };
+		BEFA157B281708600003C569 /* CampaignSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignSummary.swift; sourceTree = "<group>"; };
+		BEFA157D28170A820003C569 /* campaigns.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = campaigns.json; sourceTree = "<group>"; };
+		BEFA157E28170BCA0003C569 /* CampaignsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignsService.swift; sourceTree = "<group>"; };
 		E41F1A592811217300BC5C7F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		E4AF612728123E7A00D592D3 /* AppTypographyStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTypographyStyle.swift; sourceTree = "<group>"; };
 		E4AF61292812451E00D592D3 /* CNTButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNTButtonStyle.swift; sourceTree = "<group>"; };
@@ -218,6 +228,7 @@
 		BEF38AD628056BCC00F9E772 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				BEFA157E28170BCA0003C569 /* CampaignsService.swift */,
 				BEA7B090280E94D50080258D /* LoginService.swift */,
 			);
 			path = Services;
@@ -236,6 +247,7 @@
 			isa = PBXGroup;
 			children = (
 				E41F1A582811216000BC5C7F /* Login */,
+				BEFA1576281704D60003C569 /* Campaigns */,
 				BEF38AE328056D4400F9E772 /* Template */,
 			);
 			path = Modules;
@@ -291,6 +303,7 @@
 		BEF38ADE28056CF700F9E772 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				BEFA158028170F210003C569 /* Campaign */,
 				E4AF61302812469C00D592D3 /* TextField */,
 				E4AF612628123DE600D592D3 /* Button */,
 			);
@@ -317,9 +330,27 @@
 		BEFA156328114BCC0003C569 /* MockData */ = {
 			isa = PBXGroup;
 			children = (
+				BEFA157D28170A820003C569 /* campaigns.json */,
 				BEFA156428114BE60003C569 /* login.json */,
 			);
 			path = MockData;
+			sourceTree = "<group>";
+		};
+		BEFA1576281704D60003C569 /* Campaigns */ = {
+			isa = PBXGroup;
+			children = (
+				BEFA1577281704FE0003C569 /* CampaignsView.swift */,
+				BEFA1579281706590003C569 /* CampaignsViewModel.swift */,
+			);
+			path = Campaigns;
+			sourceTree = "<group>";
+		};
+		BEFA158028170F210003C569 /* Campaign */ = {
+			isa = PBXGroup;
+			children = (
+				BEFA157B281708600003C569 /* CampaignSummary.swift */,
+			);
+			path = Campaign;
 			sourceTree = "<group>";
 		};
 		E41F1A582811216000BC5C7F /* Login */ = {
@@ -468,6 +499,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEF38AB228056B8800F9E772 /* Preview Assets.xcassets in Resources */,
+				BEFA1581281711960003C569 /* campaigns.json in Resources */,
 				BEF38AAF28056B8800F9E772 /* Assets.xcassets in Resources */,
 				BEFA15752816AA300003C569 /* login.json in Resources */,
 			);
@@ -497,6 +529,7 @@
 				BEF38AE028056D1F00F9E772 /* AppFonts.swift in Sources */,
 				BEFA157028169D480003C569 /* NetworkError.swift in Sources */,
 				BEA7B093280E94E10080258D /* Endpoints.swift in Sources */,
+				BEFA157A281706590003C569 /* CampaignsViewModel.swift in Sources */,
 				BEFA156C28169C6E0003C569 /* URLRequestBuilder.swift in Sources */,
 				E41F1A5A2811217300BC5C7F /* LoginView.swift in Sources */,
 				BEFA157228169E1D0003C569 /* Constants.swift in Sources */,
@@ -504,6 +537,7 @@
 				E4AF612D2812456B00D592D3 /* AppTypographyStyleModifier.swift in Sources */,
 				BEA7B089280E93520080258D /* AppState.swift in Sources */,
 				BEF38AE928056D8200F9E772 /* TemplateView.swift in Sources */,
+				BEFA157F28170BCA0003C569 /* CampaignsService.swift in Sources */,
 				E4AF612A2812451E00D592D3 /* CNTButtonStyle.swift in Sources */,
 				BEA7B08B280E936B0080258D /* Strings+.swift in Sources */,
 				BEFA156028114B910003C569 /* MockURLProtocol.swift in Sources */,
@@ -512,6 +546,7 @@
 				BEA7B091280E94D50080258D /* LoginService.swift in Sources */,
 				BEFA15682816983C0003C569 /* LoginResponse.swift in Sources */,
 				BEFA156E28169C840003C569 /* AppSession.swift in Sources */,
+				BEFA1578281704FE0003C569 /* CampaignsView.swift in Sources */,
 				BEF38AAB28056B8400F9E772 /* CNTIOSBootstrapApp.swift in Sources */,
 				E4AF612828123E7A00D592D3 /* AppTypographyStyle.swift in Sources */,
 				E4AF612F2812462800D592D3 /* CNTButton.swift in Sources */,
@@ -522,6 +557,7 @@
 				BEA7B08F280E94710080258D /* Campaigns.swift in Sources */,
 				BEA7B08D280E943D0080258D /* CurrencyFormatter.swift in Sources */,
 				E4AF6132281246B200D592D3 /* CNTTextField.swift in Sources */,
+				BEFA157C281708600003C569 /* CampaignSummary.swift in Sources */,
 				E4AF613628124FF200D592D3 /* LoginView+ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
