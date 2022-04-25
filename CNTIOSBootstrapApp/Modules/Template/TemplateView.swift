@@ -26,6 +26,7 @@ struct TemplateView: View {
                 Text("Push")
             }
         }
+        .navigationTitle("First Page")
     }
 }
 

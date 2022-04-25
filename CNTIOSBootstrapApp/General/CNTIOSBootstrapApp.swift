@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct CNTIOSBootstrapAppApp: App {
+struct CNTIOSBootstrapApp: App {
     var body: some Scene {
         WindowGroup {
 //            ContentView()

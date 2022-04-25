@@ -7,6 +7,6 @@
 
 import Foundation
 
-enum Endpoints {
-    case login(username: String, password: String)
+enum Endpoints: String {
+    case login = "/login"
 }
