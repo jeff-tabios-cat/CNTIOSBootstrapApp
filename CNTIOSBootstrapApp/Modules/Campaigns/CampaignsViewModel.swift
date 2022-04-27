@@ -18,8 +18,8 @@ final class CampaignsViewModel: ObservableObject {
     let service: CampaignsService
     private var cancellables: Set<AnyCancellable> = []
     
-    init() {
-        service = CampaignsServiceForProd()
+    init(service: CampaignsService = CampaignsServiceForProd()) {
+        self.service = service
         getCampaigns()
     }
 }
