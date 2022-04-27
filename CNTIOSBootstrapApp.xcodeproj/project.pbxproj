@@ -47,7 +47,7 @@
 		E4AF612F2812462800D592D3 /* CNTButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AF612E2812462800D592D3 /* CNTButton.swift */; };
 		E4AF6132281246B200D592D3 /* CNTTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AF6131281246B200D592D3 /* CNTTextField.swift */; };
 		E4AF6134281246DA00D592D3 /* VisibilityModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AF6133281246DA00D592D3 /* VisibilityModifier.swift */; };
-		E4AF613628124FF200D592D3 /* LoginView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AF613528124FF200D592D3 /* LoginView+ViewModel.swift */; };
+		E4AF613628124FF200D592D3 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AF613528124FF200D592D3 /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,7 +110,7 @@
 		E4AF612E2812462800D592D3 /* CNTButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNTButton.swift; sourceTree = "<group>"; };
 		E4AF6131281246B200D592D3 /* CNTTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNTTextField.swift; sourceTree = "<group>"; };
 		E4AF6133281246DA00D592D3 /* VisibilityModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisibilityModifier.swift; sourceTree = "<group>"; };
-		E4AF613528124FF200D592D3 /* LoginView+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginView+ViewModel.swift"; sourceTree = "<group>"; };
+		E4AF613528124FF200D592D3 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -357,7 +357,7 @@
 			isa = PBXGroup;
 			children = (
 				E41F1A592811217300BC5C7F /* LoginView.swift */,
-				E4AF613528124FF200D592D3 /* LoginView+ViewModel.swift */,
+				E4AF613528124FF200D592D3 /* LoginViewModel.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -558,7 +558,7 @@
 				BEA7B08D280E943D0080258D /* CurrencyFormatter.swift in Sources */,
 				E4AF6132281246B200D592D3 /* CNTTextField.swift in Sources */,
 				BEFA157C281708600003C569 /* CampaignSummary.swift in Sources */,
-				E4AF613628124FF200D592D3 /* LoginView+ViewModel.swift in Sources */,
+				E4AF613628124FF200D592D3 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
