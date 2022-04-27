@@ -41,6 +41,14 @@
 		BEFA157F28170BCA0003C569 /* CampaignsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFA157E28170BCA0003C569 /* CampaignsService.swift */; };
 		BEFA1581281711960003C569 /* campaigns.json in Resources */ = {isa = PBXBuildFile; fileRef = BEFA157D28170A820003C569 /* campaigns.json */; };
 		E41F1A5A2811217300BC5C7F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F1A592811217300BC5C7F /* LoginView.swift */; };
+		E463B2D0281953C40092B9F2 /* ULLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463B2CF281953C40092B9F2 /* ULLoginView.swift */; };
+		E463B2D2281953D20092B9F2 /* ULLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463B2D1281953D20092B9F2 /* ULLoginViewModel.swift */; };
+		E463B2D4281953E10092B9F2 /* ULLoginViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463B2D3281953E10092B9F2 /* ULLoginViewModelProtocol.swift */; };
+		E463B2D8281976E40092B9F2 /* ULLoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463B2D7281976E30092B9F2 /* ULLoginService.swift */; };
+		E463B2DA2819778B0092B9F2 /* ULUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463B2D92819778B0092B9F2 /* ULUser.swift */; };
+		E47079E22819FD1700F6166A /* ULAPIClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47079E12819FD1700F6166A /* ULAPIClientProtocol.swift */; };
+		E47079E42819FD5400F6166A /* ULDefaultAPIClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47079E32819FD5400F6166A /* ULDefaultAPIClientProtocol.swift */; };
+		E47079E7281A032100F6166A /* LoginAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47079E6281A032100F6166A /* LoginAPIClient.swift */; };
 		E4AF612828123E7A00D592D3 /* AppTypographyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AF612728123E7A00D592D3 /* AppTypographyStyle.swift */; };
 		E4AF612A2812451E00D592D3 /* CNTButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AF61292812451E00D592D3 /* CNTButtonStyle.swift */; };
 		E4AF612D2812456B00D592D3 /* AppTypographyStyleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AF612C2812456B00D592D3 /* AppTypographyStyleModifier.swift */; };
@@ -104,6 +112,14 @@
 		BEFA157D28170A820003C569 /* campaigns.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = campaigns.json; sourceTree = "<group>"; };
 		BEFA157E28170BCA0003C569 /* CampaignsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignsService.swift; sourceTree = "<group>"; };
 		E41F1A592811217300BC5C7F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E463B2CF281953C40092B9F2 /* ULLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ULLoginView.swift; sourceTree = "<group>"; };
+		E463B2D1281953D20092B9F2 /* ULLoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ULLoginViewModel.swift; sourceTree = "<group>"; };
+		E463B2D3281953E10092B9F2 /* ULLoginViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ULLoginViewModelProtocol.swift; sourceTree = "<group>"; };
+		E463B2D7281976E30092B9F2 /* ULLoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ULLoginService.swift; sourceTree = "<group>"; };
+		E463B2D92819778B0092B9F2 /* ULUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ULUser.swift; sourceTree = "<group>"; };
+		E47079E12819FD1700F6166A /* ULAPIClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ULAPIClientProtocol.swift; sourceTree = "<group>"; };
+		E47079E32819FD5400F6166A /* ULDefaultAPIClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ULDefaultAPIClientProtocol.swift; sourceTree = "<group>"; };
+		E47079E6281A032100F6166A /* LoginAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAPIClient.swift; sourceTree = "<group>"; };
 		E4AF612728123E7A00D592D3 /* AppTypographyStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTypographyStyle.swift; sourceTree = "<group>"; };
 		E4AF61292812451E00D592D3 /* CNTButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNTButtonStyle.swift; sourceTree = "<group>"; };
 		E4AF612C2812456B00D592D3 /* AppTypographyStyleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTypographyStyleModifier.swift; sourceTree = "<group>"; };
@@ -246,6 +262,7 @@
 		BEF38AD828056BD800F9E772 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				E463B2C92819532C0092B9F2 /* LoginWithProtocols */,
 				E41F1A582811216000BC5C7F /* Login */,
 				BEFA1576281704D60003C569 /* Campaigns */,
 				BEF38AE328056D4400F9E772 /* Template */,
@@ -358,6 +375,85 @@
 			children = (
 				E41F1A592811217300BC5C7F /* LoginView.swift */,
 				E4AF613528124FF200D592D3 /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		E463B2C92819532C0092B9F2 /* LoginWithProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				E47079DF2819FD0200F6166A /* Clients */,
+				E463B2CC2819537E0092B9F2 /* Services */,
+				E463B2CB281953740092B9F2 /* Models */,
+				E463B2CA281953600092B9F2 /* UI */,
+			);
+			path = LoginWithProtocols;
+			sourceTree = "<group>";
+		};
+		E463B2CA281953600092B9F2 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E463B2CE281953B50092B9F2 /* CustomViews */,
+				E463B2CD281953AF0092B9F2 /* Screens */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E463B2CB281953740092B9F2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E463B2D92819778B0092B9F2 /* ULUser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E463B2CC2819537E0092B9F2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E463B2D7281976E30092B9F2 /* ULLoginService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E463B2CD281953AF0092B9F2 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				E463B2CF281953C40092B9F2 /* ULLoginView.swift */,
+				E463B2D1281953D20092B9F2 /* ULLoginViewModel.swift */,
+				E463B2D3281953E10092B9F2 /* ULLoginViewModelProtocol.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		E463B2CE281953B50092B9F2 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		E47079DF2819FD0200F6166A /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				E47079E02819FD0700F6166A /* APIClient */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		E47079E02819FD0700F6166A /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				E47079E5281A030D00F6166A /* Login */,
+				E47079E12819FD1700F6166A /* ULAPIClientProtocol.swift */,
+				E47079E32819FD5400F6166A /* ULDefaultAPIClientProtocol.swift */,
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
+		E47079E5281A030D00F6166A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E47079E6281A032100F6166A /* LoginAPIClient.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -529,7 +625,11 @@
 				BEF38AE028056D1F00F9E772 /* AppFonts.swift in Sources */,
 				BEFA157028169D480003C569 /* NetworkError.swift in Sources */,
 				BEA7B093280E94E10080258D /* Endpoints.swift in Sources */,
+				E463B2D0281953C40092B9F2 /* ULLoginView.swift in Sources */,
 				BEFA157A281706590003C569 /* CampaignsViewModel.swift in Sources */,
+				E47079E42819FD5400F6166A /* ULDefaultAPIClientProtocol.swift in Sources */,
+				E463B2D2281953D20092B9F2 /* ULLoginViewModel.swift in Sources */,
+				E47079E22819FD1700F6166A /* ULAPIClientProtocol.swift in Sources */,
 				BEFA156C28169C6E0003C569 /* URLRequestBuilder.swift in Sources */,
 				E41F1A5A2811217300BC5C7F /* LoginView.swift in Sources */,
 				BEFA157228169E1D0003C569 /* Constants.swift in Sources */,
@@ -541,6 +641,7 @@
 				E4AF612A2812451E00D592D3 /* CNTButtonStyle.swift in Sources */,
 				BEA7B08B280E936B0080258D /* Strings+.swift in Sources */,
 				BEFA156028114B910003C569 /* MockURLProtocol.swift in Sources */,
+				E463B2D8281976E40092B9F2 /* ULLoginService.swift in Sources */,
 				BEF38AAD28056B8400F9E772 /* ContentView.swift in Sources */,
 				BEFA156228114BAF0003C569 /* APIService.swift in Sources */,
 				BEA7B091280E94D50080258D /* LoginService.swift in Sources */,
@@ -557,8 +658,11 @@
 				BEA7B08F280E94710080258D /* Campaigns.swift in Sources */,
 				BEA7B08D280E943D0080258D /* CurrencyFormatter.swift in Sources */,
 				E4AF6132281246B200D592D3 /* CNTTextField.swift in Sources */,
+				E463B2D4281953E10092B9F2 /* ULLoginViewModelProtocol.swift in Sources */,
 				BEFA157C281708600003C569 /* CampaignSummary.swift in Sources */,
+				E47079E7281A032100F6166A /* LoginAPIClient.swift in Sources */,
 				E4AF613628124FF200D592D3 /* LoginViewModel.swift in Sources */,
+				E463B2DA2819778B0092B9F2 /* ULUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

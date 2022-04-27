@@ -10,7 +10,9 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView {
-            LoginView()
+          let service = ULLoginService(apiClient: ULLoginAPIClient())
+          let vm = ULLoginViewModel(loginService: service)
+          ULLoginView(viewModel: vm)
         }
     }
 }
